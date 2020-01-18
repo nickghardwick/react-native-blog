@@ -9,7 +9,7 @@ import CreateScreen from './src/screens/CreateScreen';
 const navigator = createStackNavigator({
   Index: IndexScreen,
   Show: ShowScreen,
-  Creat: CreateScreen
+  Create: CreateScreen
 }, {
   initialRouteName: 'Index',
   defaultNavigationOptions: {
