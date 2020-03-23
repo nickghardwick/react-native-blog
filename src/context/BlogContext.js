@@ -22,7 +22,7 @@ const getBlogPosts = (dispatch) => {
     return async () => {
         const response = await jsonServer.get('/blogposts');
 
-        dispatch({type: 'get_blogposts', payload: response.data});
+        dispatch({type: 'get_blogpost', payload: response.data});
     };
 };
 
